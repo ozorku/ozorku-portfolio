@@ -90,13 +90,13 @@
       text-align: center;
       margin-top: 5%;
 
-      img {
-        filter: grayscale(1);
-        &:hover {
-          filter: grayscale(0);
-          cursor: pointer;
-        }
-      }
+      // img {
+      //   filter: grayscale(1);
+      //   &:hover {
+      //     filter: grayscale(0);
+      //     cursor: pointer;
+      //   }
+      // }
     }
   }
 }
