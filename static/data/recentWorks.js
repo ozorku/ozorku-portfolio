@@ -27,7 +27,7 @@ const works = [
     summary: "Pay for and recieve Techpoint's annual report immediately",
     url: "https://intelligence.techpoint.africa",
     urlType: "post",
-    tools: ["PHP/MYSQL", "Javascript/jQuery"]
+    tools: ["PHP/MYSQL", "Javascript/jQuery", "Flutterwave Payment"]
   },
   {
     name: "SHRTN",
