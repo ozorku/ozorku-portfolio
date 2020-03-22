@@ -8,14 +8,6 @@ const works = [
   },
 
   {
-    name: "Globus Internet Banking (v1)",
-    summary:
-      "Internet Banking platform for individuals to ensure the smoothest banking experience",
-    url: "https://globusbank.com/rib",
-    urlType: "post",
-    tools: ["TailwindCSS", "Javascript/jQuery", "REST"]
-  },
-  {
     name: "Globus Onboarding",
     summary: "Enabling customers create a Globus Bank Account and Omiprofile",
     url: "https://enq.globusbank.com:3300/join/",
