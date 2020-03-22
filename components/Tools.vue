@@ -86,9 +86,21 @@
     flex-wrap: wrap;
 
     div {
-      width: 25%;
+      width: 30%;
       text-align: center;
-      margin-top: 5%;
+      margin: 5% 0;
+
+      img {
+        width: 40px;
+      }
+
+      @media screen and (min-width: 50rem) {
+        width: 25%;
+
+        img {
+          width: 25%;
+        }
+      }
 
       // img {
       //   filter: grayscale(1);
