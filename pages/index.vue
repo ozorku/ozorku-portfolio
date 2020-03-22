@@ -25,6 +25,10 @@ import Contact from "~/components/Contact";
 import Preloader from "~/components/Preloader";
 
 export default {
+  head: {
+    titleTemplate: "%s - Frontend Developer"
+  },
+
   metaInfo: {
     title: "Adavize Ozorku"
   },
