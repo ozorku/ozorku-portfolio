@@ -4,7 +4,7 @@
     <div>
       <div class="faded-top"></div>
       <div class="myResume" style="margin-top: 30px;">
-        <a href="/resume.pdf">My Résumé</a>
+        <a href="/resume.pdf" target="_blank">My Résumé</a>
       </div>
       <Intro />
       <Recentworks />
