@@ -1,7 +1,11 @@
 <template>
   <div class="tools">
     <h2>Languages & Tools</h2>
+
     <div class="list">
+      <div>
+        <img src="~/assets/images/tools/sass.svg" alt="Sass" title="Sass" />
+      </div>
       <div>
         <img
           src="~/assets/images/tools/js.svg"
@@ -56,9 +60,9 @@
       <div>
         <img src="~/assets/images/tools/mysql.svg" alt="MYSQL" title="MYSQL" />
       </div>
-      <div>
+      <!-- <div>
         <img src="~/assets/images/tools/nginx.svg" alt="NGINX" title="NGINX" />
-      </div>
+      </div> -->
       <div>
         <img
           src="~/assets/images/tools/webpack.svg"
