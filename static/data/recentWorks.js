@@ -16,7 +16,7 @@ const works = [
   },
   {
     name: "Techpoint Intelligence",
-    summary: "Pay for and recieve Techpoint's annual report immediately",
+    summary: "Pay for and recieve Techpoint's annual report within minutes",
     url: "https://intelligence.techpoint.africa",
     urlType: "post",
     tools: ["PHP/MYSQL", "Javascript/jQuery", "Flutterwave Payment"]
