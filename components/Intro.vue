@@ -3,10 +3,10 @@
     <div class="intro__aboutme">
       <h1>Hello, I'm <br />Adavize Ozorku</h1>
       <p>
-        I'm a software developer based in Lagos, Nigeria specializing in
-        developing exceptional websites and applications. I’m currently working
-        as a frontend developer at Globus Bank Limited. I’m a huge fan of
-        Vue.js/NuxtJS and love to tinker around CSS
+        I'm a software developer with 3 years of experience developing intuitive
+        user interfaces and smooth web experiences. Currently works at Globus
+        Bank Limited as a frontend developer. I’m a huge fan of Vue.js/NuxtJS
+        and love to tinker around CSS
       </p>
     </div>
     <div class="intro__mypicture">
