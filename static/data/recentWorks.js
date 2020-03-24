@@ -9,7 +9,7 @@ const works = [
 
   {
     name: "Globus Onboarding",
-    summary: "Enabling customers create a Globus Bank Account and Omiprofile",
+    summary: "Enabling customers create a Globus Bank Account and Omniprofile",
     url: "https://enq.globusbank.com:3300/join/",
     urlType: "post",
     tools: ["Nuxt/Vuex", "TailwindCSS", "REST"]
