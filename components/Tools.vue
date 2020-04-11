@@ -28,6 +28,13 @@
       </div>
       <div>
         <img
+          src="~/assets/images/tools/reactjs.svg"
+          alt="ReactJS"
+          title="Reactjs"
+        />
+      </div>
+      <div>
+        <img
           src="~/assets/images/tools/firebase.svg"
           alt="Firebase"
           title="Firebase"
@@ -36,13 +43,13 @@
       <div>
         <img src="~/assets/images/tools/git.svg" alt="Git" title="Git" />
       </div>
-      <div>
+      <!-- <div>
         <img
           src="~/assets/images/tools/linode.svg"
           alt="Linode"
           title="Linode"
         />
-      </div>
+      </div> -->
       <div>
         <img
           src="~/assets/images/tools/nodejs.svg"
