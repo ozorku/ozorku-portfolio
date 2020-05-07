@@ -95,7 +95,7 @@ export default {
       display: flex;
       justify-content: space-between;
       align-items: flex-end;
-      color: #444444;
+      color: #111111;
       cursor: pointer;
       text-decoration: none;
 

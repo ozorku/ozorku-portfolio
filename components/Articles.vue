@@ -86,7 +86,7 @@ export default {
       flex-direction: column;
       justify-content: space-between;
       cursor: pointer;
-      color: #444;
+      color: #111;
 
       div:nth-child(2) {
         display: flex;

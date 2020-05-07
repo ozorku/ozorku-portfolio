@@ -1,7 +1,7 @@
 <template>
   <div class="intro">
     <div class="intro__aboutme">
-      <h1>Hello, I'm <br />Adavize Ozorku</h1>
+      <h1>Software Developer</h1>
       <p>
         I'm a software developer with 3 years of experience developing intuitive
         user interfaces and smooth web experiences. Currently works at Globus
