@@ -55,7 +55,7 @@ h3 {
 }
 
 .layout {
-  max-width: 1124px;
+  max-width: 950px;
   width: 90%;
   margin: 0 auto;
 }

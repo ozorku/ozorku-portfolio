@@ -2,15 +2,17 @@
   <div>
     <!-- <Preloader v-if="loading" /> -->
     <div>
-      <div class="faded-top"></div>
-      <div class="myResume" style="margin-top: 30px;">
+      <!-- <div class="faded-top"></div>  -->
+      <div class="heading" style="margin-top: 20px;">
+        <a href="/" target="_blank">Github</a>
+        <div class="vertical-line"></div>
         <a href="/resume.pdf" target="_blank">My Résumé</a>
       </div>
       <Intro />
-      <Recentworks />
-      <Tools />
-      <Articles />
-      <Contact />
+      <Works />
+      <!-- <Tools /> -->
+      <!-- <Articles /> -->
+      <!-- <Contact /> -->
       <div class="faded-bottom"></div>
     </div>
   </div>
@@ -19,7 +21,7 @@
 <script>
 import Intro from "~/components/Intro";
 import Tools from "~/components/Tools";
-import Recentworks from "~/components/Recentworks";
+import Works from "~/components/Works";
 import Articles from "~/components/Articles";
 import Contact from "~/components/Contact";
 import Preloader from "~/components/Preloader";
@@ -48,7 +50,7 @@ export default {
   components: {
     Intro,
     Tools,
-    Recentworks,
+    Works,
     Articles,
     Contact,
     Preloader
@@ -57,11 +59,25 @@ export default {
 </script>
 
 <style lang="scss">
-.myResume {
+.heading {
   display: flex;
   justify-content: flex-end;
+  align-items: center;
   a {
     color: inherit;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
   }
+
+  .resume-link {
+    margin-left: 20px;
+  }
+}
+
+.vertical-line {
+  border-right: 1px solid #ddd;
+  margin: 0 20px;
+  height: 20px;
 }
 </style>

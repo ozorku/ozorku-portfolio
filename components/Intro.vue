@@ -1,12 +1,14 @@
 <template>
   <div class="intro">
     <div class="intro__aboutme">
-      <h1>Software Developer</h1>
+      <h1>
+        Software Developer
+      </h1>
       <p>
-        I'm a software developer with 3 years of experience developing intuitive
-        user interfaces and smooth web experiences. Currently works at Globus
-        Bank Limited as a frontend developer. I’m a huge fan of Vue.js/NuxtJS
-        and love to tinker around CSS
+        I'm <u>Adavize</u>, a software developer with 3 years worth of
+        experience developing intuitive user interfaces and smooth web
+        experiences. Currently works at Globus Bank Limited as a frontend
+        developer.
       </p>
     </div>
     <div class="intro__mypicture">
@@ -24,7 +26,7 @@
   justify-content: space-between;
   flex-direction: column;
   align-items: center;
-  margin: 25% 0 12% 0;
+  margin: 25% 0 0% 0;
 
   a {
     color: inherit;
@@ -32,17 +34,18 @@
 
   h1 {
     margin-bottom: 1rem;
-    font-size: 2rem;
-    line-height: 130%;
+    font-size: 3rem;
+    line-height: 100%;
   }
 
   p {
+    margin-top: 3%;
     line-height: 2.3rem;
   }
 
   @media screen and (min-width: 80rem) {
     flex-direction: row;
-    margin: 15% 0 12% 0;
+    margin: 15% 0 0% 0;
 
     h1 {
       margin-bottom: 1rem;
@@ -54,7 +57,7 @@
     width: 100%;
 
     @media screen and (min-width: 80rem) {
-      width: 63%;
+      width: 65%;
     }
   }
 
@@ -65,7 +68,8 @@
 
     img {
       width: 100%;
-      max-width: 350px;
+      max-width: 300px;
+      display: none;
     }
 
     @media screen and (min-width: 80rem) {
@@ -75,6 +79,7 @@
 
       img {
         width: 320px;
+        display: inline-block;
       }
     }
   }

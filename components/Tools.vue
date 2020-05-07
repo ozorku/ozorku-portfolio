@@ -102,15 +102,11 @@
       margin: 5% 0;
 
       img {
-        width: 40px;
+        height: 40px;
       }
 
       @media screen and (min-width: 50rem) {
-        width: 25%;
-
-        img {
-          width: 25%;
-        }
+        width: 20%;
       }
 
       // img {
