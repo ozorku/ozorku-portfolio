@@ -15,7 +15,7 @@ body {
   padding: 0;
   line-height: calc(2rem + 0.6 * ((100vw - 20em) / 60));
   overflow-x: hidden;
-  color: #1d1d1f;
+  color: #111111;
 }
 
 p {
@@ -55,7 +55,7 @@ h3 {
 }
 
 .layout {
-  max-width: 1124px;
+  max-width: 950px;
   width: 90%;
   margin: 0 auto;
 }
