@@ -1,62 +1,71 @@
 <template>
-  <div class="intro">
-    <div class="intro__aboutme">
-      <h1>
-        Software Developer
-      </h1>
-      <p>
-        I'm <u>Adavize</u>, a software developer with 3 years worth of
-        experience developing intuitive user interfaces and smooth web
-        experiences. Currently works at Globus Bank Limited as a frontend
-        developer.
-      </p>
+  <div class="intro-parent">
+    <div class="intro-heading">
+      <div class="intro-heading__aboutme">
+        <!-- <h1>Software Developer</h1> -->
+        <h1>Hi, I'm Ozorku</h1>
+      </div>
+      <div class="intro-heading__mypicture">
+        <img
+          src="~/assets/images/display-photo.svg"
+          alt="Adavize Ozorku - Software Developer"
+        />
+      </div>
     </div>
-    <div class="intro__mypicture">
-      <img
-        src="~/assets/images/display-photo.svg"
-        alt="Adavize Ozorku - Software Developer"
-      />
+    <div class="intro-summary">
+      I'm an energetic software developer with ~4 years worth of experience
+      developing intuitive user interfaces for a smooth web & mobile experience.
+      I also do a bit of non-professional design. Currently, I work with Globus
+      Bank Limited to help develop the best banking experience as a Frontend
+      Developer.
     </div>
   </div>
 </template>
 
 <style lang="scss" scoped>
-.intro {
+.intro-parent {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.intro-summary {
+  font-size: 18px;
+  line-height: 180%;
+  margin-top: 50px;
+
+  @media screen and (min-width: 50rem) {
+    font-size: 24px;
+  }
+}
+
+.intro-heading {
   display: flex;
   justify-content: space-between;
-  flex-direction: column;
   align-items: center;
-  margin: 25% 0 0% 0;
 
   a {
     color: inherit;
   }
 
   h1 {
-    margin-bottom: 1rem;
-    font-size: 3rem;
+    font-size: 4rem;
     line-height: 100%;
   }
 
-  p {
-    margin-top: 3%;
-    line-height: 2.3rem;
-  }
-
-  @media screen and (min-width: 80rem) {
+  @media screen and (min-width: 50rem) {
     flex-direction: row;
-    margin: 15% 0 0% 0;
 
     h1 {
-      margin-bottom: 1rem;
-      font-size: 4rem;
+      font-size: 8rem;
     }
   }
 
   &__aboutme {
     width: 100%;
 
-    @media screen and (min-width: 80rem) {
+    @media screen and (min-width: 50rem) {
       width: 65%;
     }
   }
@@ -72,13 +81,13 @@
       display: none;
     }
 
-    @media screen and (min-width: 80rem) {
+    @media screen and (min-width: 60rem) {
       width: 48%;
       text-align: end;
       margin: 0;
 
       img {
-        width: 320px;
+        width: 100%;
         display: inline-block;
       }
     }
