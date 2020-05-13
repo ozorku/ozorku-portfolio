@@ -1,7 +1,6 @@
 <template>
   <div class="latest-work">
     <img
-      class="_9ofhsl"
       style="object-fit: cover; vertical-align: bottom;
     margin-bottom: 50px"
       aria-hidden="true"
@@ -17,32 +16,27 @@
         <p style="margin-top: 30px">
           <b>Globus Corporate</b>, A powerful Internet Banking platform for
           Corporate outfits
-          <a href="">Visit</a>
+          <a href="https://enq.globusbank.com:8855" target="_blank">Visit</a>
         </p>
       </div>
       <div>
         <img src="~/assets/images/globus-corporate.png" width="100%" />
       </div>
     </div>
-    <a class="buttonStyle" href="">See more projects</a>
+    <button @click="$router.push('work')" class="buttonStyle" href="">
+      See more projects
+    </button>
   </div>
 </template>
 
-<script>
-import works from "~/static/data/recentWorks";
-
-export default {
-  data() {
-    return {
-      works
-    };
-  }
-};
-</script>
-
 <style lang="scss" scoped>
 .latest-work {
-  margin: 5% 0 20% 0;
+  // margin: 5% 0 20% 0;
+  background: red;
+
+  a {
+    color: #111;
+  }
 
   h2 {
     font-size: 32px;
@@ -51,20 +45,23 @@ export default {
   }
 
   @media screen and (min-width: 50rem) {
-    margin: 10% 0 20% 0;
+    // margin: 10% 0 20% 0;
   }
 }
 
 .buttonStyle {
+  background: transparent;
   border-radius: 5px;
   border: 2px solid #111;
-  padding: 5px 13px;
+  padding: 2px 10px;
   text-decoration: none;
   color: #111;
   margin: 0px auto 0 auto;
   max-width: 200px;
-  font-weight: bold;
+  padding: 10px 20px;
+  font-size: 18px;
   display: flex;
   justify-content: center;
+  cursor: pointer;
 }
 </style>

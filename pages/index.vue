@@ -1,27 +1,28 @@
 <template>
-  <div>
-    <!-- <Preloader v-if="loading" /> -->
-    <div>
-      <!-- <div class="faded-top"></div>  -->
-      <div class="heading" style="margin-top: 20px;">
-        <a href="/" target="_blank">Github</a>
-        <div class="vertical-line"></div>
-        <a href="/resume.pdf" target="_blank">My Résumé</a>
-      </div>
+  <div class="snap">
+    <li class="container">
       <Intro />
-      <Works />
-      <!-- <Tools /> -->
-      <!-- <Articles /> -->
-      <!-- <Contact /> -->
-      <div class="faded-bottom"></div>
-    </div>
+    </li>
+    <!-- <li>
+      <div class="container">
+        <MostRecentWork />
+      </div>
+    </li> -->
+    <li style="background: #111">
+      <div class="container">
+        <Tools />
+      </div>
+    </li>
+    <!-- <li class="container">
+      <Articles />
+    </li> -->
   </div>
 </template>
 
 <script>
 import Intro from "~/components/Intro";
 import Tools from "~/components/Tools";
-import Works from "~/components/Works";
+import MostRecentWork from "~/components/MostRecentWork";
 import Articles from "~/components/Articles";
 import Contact from "~/components/Contact";
 import Preloader from "~/components/Preloader";
@@ -50,7 +51,7 @@ export default {
   components: {
     Intro,
     Tools,
-    Works,
+    MostRecentWork,
     Articles,
     Contact,
     Preloader
@@ -58,20 +59,30 @@ export default {
 };
 </script>
 
-<style lang="scss">
-.heading {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  a {
-    color: inherit;
-    text-decoration: none;
-    padding: 0;
-    margin: 0;
+<style lang="scss" scoped>
+.container {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+li {
+  list-style: none;
+}
+
+@media screen and (min-width: 50rem) {
+  .snap {
+    max-height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    &.proximity {
+      scroll-snap-type: y proximity;
+    }
   }
 
-  .resume-link {
-    margin-left: 20px;
+  li {
+    // height: 100vh;
+    scroll-snap-align: start;
   }
 }
 

@@ -1,5 +1,5 @@
 <template>
-  <div class="layout">
+  <div>
     <nuxt />
   </div>
 </template>
@@ -52,12 +52,6 @@ h3 {
   h2 {
     font-size: calc(2rem + 0.5 * ((100vw - 20rem) / 60));
   }
-}
-
-.layout {
-  max-width: 950px;
-  width: 90%;
-  margin: 0 auto;
 }
 
 .faded-top {

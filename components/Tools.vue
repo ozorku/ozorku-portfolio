@@ -1,122 +1,48 @@
 <template>
-  <div class="tools">
-    <h2>Languages & Tools</h2>
-
-    <div class="list">
-      <div>
-        <img src="~/assets/images/tools/sass.svg" alt="Sass" title="Sass" />
-      </div>
-      <div>
-        <img
-          src="~/assets/images/tools/js.svg"
-          alt="Javscript"
-          title="Javascript"
-        />
-      </div>
-      <div>
-        <img
-          src="~/assets/images/tools/jquery.svg"
-          alt="jQuery"
-          title="jQuery"
-        />
-      </div>
-      <div>
-        <img src="~/assets/images/tools/vue.svg" alt="VueJS" title="Vuejs" />
-      </div>
-      <div>
-        <img src="~/assets/images/tools/nuxt.svg" alt="Nuxt" title="Nuxt" />
-      </div>
-      <div>
-        <img
-          src="~/assets/images/tools/reactjs.svg"
-          alt="ReactJS"
-          title="Reactjs"
-        />
-      </div>
-      <div>
-        <img
-          src="~/assets/images/tools/firebase.svg"
-          alt="Firebase"
-          title="Firebase"
-        />
-      </div>
-      <div>
-        <img src="~/assets/images/tools/git.svg" alt="Git" title="Git" />
-      </div>
-      <!-- <div>
-        <img
-          src="~/assets/images/tools/linode.svg"
-          alt="Linode"
-          title="Linode"
-        />
-      </div> -->
-      <div>
-        <img
-          src="~/assets/images/tools/nodejs.svg"
-          alt="NodeJS"
-          title="NodeJS"
-        />
-      </div>
-      <div>
-        <img
-          src="~/assets/images/tools/express.svg"
-          alt="Express"
-          title="Express"
-        />
-      </div>
-      <div>
-        <img src="~/assets/images/tools/mysql.svg" alt="MYSQL" title="MYSQL" />
-      </div>
-      <!-- <div>
-        <img src="~/assets/images/tools/nginx.svg" alt="NGINX" title="NGINX" />
-      </div> -->
-      <div>
-        <img
-          src="~/assets/images/tools/webpack.svg"
-          alt="Webpack"
-          title="Webpack"
-        />
+  <div class="what-i-do">
+    <div class="columns">
+      <div class="content">
+        <h1>
+          Working on it...
+        </h1>
       </div>
     </div>
   </div>
 </template>
 
 <style lang="scss" scoped>
-.tools {
-  margin-top: 15%;
-  text-align: center;
+.what-i-do {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
 
-  h2 {
-    font-size: 2rem;
+.columns {
+  .content {
+    text-align: center;
+    height: 100%;
+    color: white;
+    width: 100%;
   }
+}
 
-  .list {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
+h1 {
+  animation-name: fadeText;
+  animation-duration: 2s;
+  animation-direction: alternate;
+  animation-play-state: running;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
 
-    div {
-      width: 30%;
-      text-align: center;
-      margin: 5% 0;
-
-      img {
-        height: 40px;
-      }
-
-      @media screen and (min-width: 50rem) {
-        width: 20%;
-      }
-
-      // img {
-      //   filter: grayscale(1);
-      //   &:hover {
-      //     filter: grayscale(0);
-      //     cursor: pointer;
-      //   }
-      // }
-    }
+@keyframes fadeText {
+  from {
+    opacity: 0.2;
+  }
+  to {
+    opacity: 1;
   }
 }
 </style>
