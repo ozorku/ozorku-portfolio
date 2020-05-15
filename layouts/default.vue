@@ -9,13 +9,21 @@
 @import "~/assets/Inter/inter.css";
 
 body {
-  font-size: calc(0.9375rem + 0.5 * ((100vw - 20rem) / 60));
+  // font-size: calc(0.9375rem + 0.5 * ((100vw - 20rem) / 60));
   font-family: "Inter", sans-serif;
   margin: 0;
   padding: 0;
-  line-height: calc(2rem + 0.6 * ((100vw - 20em) / 60));
+  // line-height: calc(2rem + 0.6 * ((100vw - 20em) / 60));
   overflow-x: hidden;
-  color: #111111;
+  color: rgb(204, 214, 246);
+  background: #111;
+
+  font-size: 16px;
+  line-height: 180%;
+
+  @media screen and (min-width: 50rem) {
+    font-size: 18px;
+  }
 }
 
 p {
@@ -30,7 +38,7 @@ h1 {
 }
 
 h2 {
-  font-size: calc(1.125rem + 0.5 * ((100vw - 20rem) / 60));
+  font-size: calc(1.5rem + 0.5 * ((100vw - 20rem) / 60));
 }
 
 h3 {

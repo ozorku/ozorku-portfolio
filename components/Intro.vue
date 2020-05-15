@@ -1,9 +1,9 @@
 <template>
-  <div class="intro-parent">
+  <div class="intro-parent container">
     <div class="intro-heading">
       <div class="intro-heading__aboutme">
-        <!-- <h1>Software Developer</h1> -->
-        <h1>Hi, I'm Ozorku</h1>
+        <p>Hi, I'm <span style="color: #48C8FF">Adavize Ozorku</span></p>
+        <h1>Software Developer</h1>
       </div>
       <div class="intro-heading__mypicture">
         <img
@@ -14,10 +14,9 @@
     </div>
     <div class="intro-summary">
       I'm an energetic software developer with ~4 years worth of experience
-      developing intuitive user interfaces for a smooth web & mobile experience.
-      I also do a bit of non-professional design. Currently, I work with Globus
-      Bank Limited to help develop the best banking experience as a Frontend
-      Developer.
+      working with various teams and developing intuitive user interfaces for a
+      snappy web & mobile experience. I've been accused of having an obsessive
+      attention to detail
     </div>
   </div>
 </template>
@@ -36,7 +35,7 @@
   margin-top: 50px;
 
   @media screen and (min-width: 50rem) {
-    font-size: 24px;
+    font-size: 20px;
   }
 }
 
@@ -58,7 +57,7 @@
     flex-direction: row;
 
     h1 {
-      font-size: 8rem;
+      font-size: 6rem;
     }
   }
 
@@ -79,6 +78,7 @@
       width: 100%;
       max-width: 300px;
       display: none;
+      // filter: hue-rotate(180deg);
     }
 
     @media screen and (min-width: 60rem) {
