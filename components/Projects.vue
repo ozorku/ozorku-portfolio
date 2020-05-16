@@ -8,19 +8,21 @@
         <div v-for="work in works" :key="work.index" class="project">
           <header>
             <div class="project-header">
-              <img src="~/assets/images/folder.svg" width="40px" />
-
+              <div class="folder"></div>
               <div>
-                <a target="_blank" :href="work.github" v-show="work.github">
-                  <img src="~/assets/images/github.svg" width="20px" />
+                <a
+                  class="github-link"
+                  target="_blank"
+                  :href="work.github"
+                  v-show="work.github"
+                >
                 </a>
-
-                <a target="_blank" :href="work.url" v-show="work.url"
-                  ><img
-                    src="~/assets/images/link.svg"
-                    style="margin-left: 25px"
-                    width="20px"
-                /></a>
+                <a
+                  class="url-link"
+                  target="_blank"
+                  :href="work.url"
+                  v-show="work.url"
+                ></a>
               </div>
             </div>
             <div class="project-name">{{ work.name }}</div>
@@ -44,7 +46,7 @@
 </template>
 
 <script>
-import works from "~/static/data/recentWorks";
+import works from "~/static/data/works";
 
 export default {
   data() {
@@ -56,12 +58,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.projects-section {
-  margin-bottom: 100px;
-}
 h2 {
   text-align: center;
-  margin-bottom: 50px;
 }
 
 .projects {
@@ -131,13 +129,32 @@ h2 {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 30px;
+
+    .folder {
+      &::after {
+        content: url("../assets/images/folder.svg");
+      }
+    }
+
+    .github-link {
+      &::after {
+        content: url("../assets/images/github.svg");
+      }
+    }
+
+    .url-link {
+      margin-left: 20px;
+      &::after {
+        content: url("../assets/images/link.svg");
+      }
+    }
   }
 
   &-name {
     font-size: 22px;
     color: rgb(204, 214, 246);
     font-weight: 600;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
   }
 
   &-description {

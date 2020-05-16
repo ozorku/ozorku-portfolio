@@ -1,6 +1,6 @@
 <template>
   <div class="container articles">
-    <h2>Articles</h2>
+    <h2>Knowledge shared</h2>
     <div class="articles-list">
       <a
         :href="article.url"
@@ -31,7 +31,7 @@ export default {
 
 <style lang="scss" scoped>
 .articles {
-  margin: 15% auto;
+  margin-top: 20vh;
 
   h2 {
     text-align: center;
@@ -43,7 +43,6 @@ export default {
   }
 
   &-list {
-    margin-top: 50px;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     // gap: 33px;

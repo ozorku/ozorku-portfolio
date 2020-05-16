@@ -1,13 +1,15 @@
 <template>
   <div class="contact container">
-    <h2>Send me a message!</h2>
-    <p style="color: rgb(168, 178, 209);  max-width: 600px;   margin: 0 auto;">
-      Feel free to get in touch, I'm currently looking for new opportunities in
-      Frontend or mobile app development and willing to consider interesting
-      proposals.
-    </p>
+    <h2>Send me a message</h2>
+    <div
+      style="color: rgb(168, 178, 209);  max-width: 600px;   margin: 0 auto;"
+    >
+      Do you have a question or proposal or just want to get in touch? Go ahead.
+      Also, I'm looking for new opportunities in Frontend or mobile app
+      development and willing to consider interesting proposals.
+    </div>
     <button @click="openMail" style="margin-top: 30px">
-      Shoot me a mail
+      Shoot . Your . Shot!
     </button>
   </div>
 </template>
@@ -25,7 +27,11 @@ export default {
 <style lang="scss" scoped>
 .contact {
   text-align: center;
-  margin: 15% auto;
-  line-height: 1.8;
+  margin: 20vh auto;
+  padding: 5vh 0;
+  background-image: url("../assets/images/everybody-bg.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 </style>
