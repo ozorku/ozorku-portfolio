@@ -1,19 +1,22 @@
 <template>
   <div>
-    <Intro />
-    <Projects />
-    <Articles />
-    <Contact />
-    <Footer />
+    <Loader v-if="!loaded" />
+    <div v-else>
+      <Hero />
+      <Projects />
+      <Articles />
+      <Contact />
+      <Footer />
+    </div>
   </div>
 </template>
 
 <script>
-import Intro from "~/components/Intro";
+import Loader from "~/components/Loader";
+import Hero from "~/components/Hero";
 import Projects from "~/components/Projects";
 import Articles from "~/components/Articles";
 import Contact from "~/components/Contact";
-import Preloader from "~/components/Preloader";
 import Footer from "~/components/Footer";
 
 export default {
@@ -27,16 +30,22 @@ export default {
 
   data() {
     return {
-      loading: true
+      loaded: false
     };
   },
 
+  mounted() {
+    setTimeout(() => {
+      this.loaded = true;
+    }, 3000);
+  },
+
   components: {
-    Intro,
+    Loader,
+    Hero,
     Projects,
     Articles,
     Contact,
-    Preloader,
     Footer
   }
 };
