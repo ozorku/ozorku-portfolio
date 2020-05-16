@@ -47,8 +47,7 @@ h1 {
 
 h2 {
   font-size: calc(1.5rem + 0.5 * ((100vw - 20rem) / 60));
-  margin: 0;
-  line-height: 100%;
+  line-height: 3vh;
 }
 
 h3 {

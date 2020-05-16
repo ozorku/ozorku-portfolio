@@ -57,11 +57,10 @@ export default {
 
 <style lang="scss" scoped>
 .projects-section {
-  margin-bottom: 100px;
 }
 h2 {
   text-align: center;
-  margin-bottom: 50px;
+  // margin-bottom: 50px;
 }
 
 .projects {
