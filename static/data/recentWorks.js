@@ -3,14 +3,14 @@ const works = [
     name: "Globus Corporate",
     summary: "A powerful Internet Banking platform for Corporate outfits",
     url: "https://enq.globusbank.com:8855",
-    tools: ["Nuxt/Vuex", "ElementUI", "REST"]
+    tools: ["Nuxt/Vuex", "ElementUI", "REST API"]
   },
 
   {
     name: "Globus Onboarding",
     summary: "Enabling customers create a Globus Bank Account and Omniprofile",
     url: "https://enq.globusbank.com:3300/join/",
-    tools: ["Nuxt/Vuex", "TailwindCSS", "REST"]
+    tools: ["Nuxt/Vuex", "TailwindCSS", "REST API"]
   },
   {
     name: "Techpoint Intelligence",
@@ -19,10 +19,10 @@ const works = [
     tools: ["PHP/MYSQL", "Javascript/jQuery", "Rave Payment"]
   },
   {
-    name: "News mobile",
+    name: "News React Native",
     summary: "News app built with react-native",
     url: "",
-    github: "https://github.com/ozorku/note-like",
+    github: "https://github.com/ozorku/news-react-native",
     tools: ["React-native/Redux", "GNews API"]
   },
   {
@@ -30,7 +30,7 @@ const works = [
     summary: "Easily shorten URLs",
     url: "https://shrtn.netlify.com",
     github: "https://github.com/ozorku/shrtn-url",
-    tools: ["VueJS", "REST API"]
+    tools: ["Vue", "REST API"]
   },
   // {
   //   name: "Notelike Mobile",
@@ -43,7 +43,7 @@ const works = [
     name: "Notelike web",
     summary: "A simple note-taking application like (Simple Note)",
     url: "notelike.netlify.com",
-    github: "https://github.com/ozorku/note-like",
+    github: "https://github.com/ozorku/NoteLike",
     tools: ["Nuxt/Vuex", "Firebase Auth"]
   }
 ];

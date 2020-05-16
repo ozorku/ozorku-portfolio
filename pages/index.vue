@@ -1,17 +1,20 @@
 <template>
   <div>
     <Intro />
-    <Tools />
-    <!-- <Articles /> -->
+    <Projects />
+    <Articles />
+    <Contact />
+    <Footer />
   </div>
 </template>
 
 <script>
 import Intro from "~/components/Intro";
-import Tools from "~/components/Tools";
+import Projects from "~/components/Projects";
 import Articles from "~/components/Articles";
 import Contact from "~/components/Contact";
 import Preloader from "~/components/Preloader";
+import Footer from "~/components/Footer";
 
 export default {
   head: {
@@ -30,10 +33,11 @@ export default {
 
   components: {
     Intro,
-    Tools,
+    Projects,
     Articles,
     Contact,
-    Preloader
+    Preloader,
+    Footer
   }
 };
 </script>
