@@ -1,6 +1,6 @@
 <template>
   <div class="container articles">
-    <h2>Articles</h2>
+    <h2>Knowledge shared</h2>
     <div class="articles-list">
       <a
         :href="article.url"
