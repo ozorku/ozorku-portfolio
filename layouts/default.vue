@@ -17,13 +17,21 @@ body {
   overflow-x: hidden;
   color: rgb(204, 214, 246);
   background: #111;
-
   font-size: 16px;
   line-height: 180%;
 
   @media screen and (min-width: 50rem) {
     font-size: 18px;
   }
+}
+
+button {
+  background: transparent;
+  border: 0.5px solid #48c8ff;
+  padding: 15px 40px;
+  color: #48c8ff;
+  font-size: 18px;
+  cursor: pointer;
 }
 
 p {
@@ -39,6 +47,8 @@ h1 {
 
 h2 {
   font-size: calc(1.5rem + 0.5 * ((100vw - 20rem) / 60));
+  margin: 0;
+  line-height: 100%;
 }
 
 h3 {
@@ -60,25 +70,5 @@ h3 {
   h2 {
     font-size: calc(2rem + 0.5 * ((100vw - 20rem) / 60));
   }
-}
-
-.faded-top {
-  width: 100%;
-  background: white;
-  filter: blur(1rem);
-  height: 50px;
-  position: fixed;
-  top: -20px;
-  left: 0;
-}
-
-.faded-bottom {
-  position: fixed;
-  bottom: -20px;
-  background: white;
-  left: 0;
-  width: 100%;
-  filter: blur(1rem);
-  height: 50px;
 }
 </style>

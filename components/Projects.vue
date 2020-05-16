@@ -1,5 +1,5 @@
 <template>
-  <div class="what-i-do">
+  <div class="projects-section">
     <div class="container">
       <h2 class="section-heading">
         Some things I've built
@@ -11,11 +11,11 @@
               <img src="~/assets/images/folder.svg" width="40px" />
 
               <div>
-                <a :href="work.github" v-show="work.github">
-                  <img src="~/assets/images/github.svg" width="20px"
-                /></a>
+                <a target="_blank" :href="work.github" v-show="work.github">
+                  <img src="~/assets/images/github.svg" width="20px" />
+                </a>
 
-                <a :href="work.url" v-show="work.url"
+                <a target="_blank" :href="work.url" v-show="work.url"
                   ><img
                     src="~/assets/images/link.svg"
                     style="margin-left: 25px"
@@ -56,7 +56,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.what-i-do {
+.projects-section {
   margin-bottom: 100px;
 }
 h2 {
@@ -81,15 +81,15 @@ h2 {
   position: relative;
   padding: 20px;
   min-height: 300px;
-  border-radius: 4px;
   transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
   background-color: #222;
   box-shadow: 1px 15px 18px rgba(0, 0, 0, 0.03);
 
   &:hover {
-    // transform: translateY(-5px);
     cursor: default;
-    transform: scale(1);
+    transform: scale(1.1);
+    background: #333;
+    z-index: 1;
   }
 
   &::before,

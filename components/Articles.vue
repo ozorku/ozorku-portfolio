@@ -11,10 +11,7 @@
       >
         <h3>{{ article.name }}</h3>
 
-        <div>
-          <span>{{ article.linkName }} </span>
-          <img src="~/assets/images/link.svg" width="24px" />
-        </div>
+        <footer>{{ article.linkName }}</footer>
       </a>
     </div>
   </div>
@@ -34,7 +31,7 @@ export default {
 
 <style lang="scss" scoped>
 .articles {
-  margin: 10% auto;
+  margin: 15% auto;
 
   h2 {
     text-align: center;
@@ -46,10 +43,13 @@ export default {
   }
 
   &-list {
+    margin-top: 50px;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 33px;
+    // gap: 33px;
+    gap: 1px;
     position: relative;
+    background: rgb(136, 146, 176);
 
     h3 {
       line-height: 150%;
@@ -66,10 +66,21 @@ export default {
     position: relative;
     padding: 2rem 1.75rem;
     min-height: 200px;
-    border-radius: 4px;
     transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
     background-color: #222;
     box-shadow: 1px 15px 18px rgba(0, 0, 0, 0.03);
+
+    &:hover {
+      transform: scale(1.1);
+      background: #333;
+      z-index: 1;
+      cursor: pointer;
+    }
+
+    footer {
+      color: rgb(136, 146, 176);
+      font-size: 14px;
+    }
 
     div:nth-child(2) {
       display: flex;

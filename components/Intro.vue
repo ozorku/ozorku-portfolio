@@ -78,7 +78,6 @@
       width: 100%;
       max-width: 300px;
       display: none;
-      // filter: hue-rotate(180deg);
     }
 
     @media screen and (min-width: 60rem) {
