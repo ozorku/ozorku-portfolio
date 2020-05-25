@@ -48,7 +48,6 @@ export default {
     // gap: 33px;
     gap: 1px;
     position: relative;
-    background: rgb(136, 146, 176);
 
     h3 {
       line-height: 150%;
