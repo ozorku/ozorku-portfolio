@@ -1,60 +1,32 @@
 <template>
   <div>
-    <Loader v-if="!loaded" />
-    <div v-else>
-      <Hero />
-      <Projects />
-      <Articles />
-      <Contact />
-      <Footer />
-    </div>
+    <Hero />
+    <MyWork />
+    <ContactMe />
+    <Footer />
   </div>
 </template>
 
 <script>
-import Loader from "~/components/Loader";
 import Hero from "~/components/Hero";
-import Projects from "~/components/Projects";
-import Articles from "~/components/Articles";
-import Contact from "~/components/Contact";
+import MyWork from "~/components/MyWork";
 import Footer from "~/components/Footer";
+import ContactMe from "~/components/ContactMe";
 
 export default {
   head: {
-    titleTemplate: "%s - Frontend Developer"
+    titleTemplate: "%s - Software Developer"
   },
 
   metaInfo: {
     title: "Adavize Ozorku"
   },
 
-  data() {
-    return {
-      loaded: false
-    };
-  },
-
-  mounted() {
-    setTimeout(() => {
-      this.loaded = true;
-    }, 3000);
-  },
-
   components: {
-    Loader,
     Hero,
-    Projects,
-    Articles,
-    Contact,
-    Footer
+    MyWork,
+    Footer,
+    ContactMe
   }
 };
 </script>
-
-<style lang="scss">
-.container {
-  max-width: 1024px;
-  width: 90%;
-  margin: 0 auto;
-}
-</style>

@@ -4,56 +4,30 @@ export default {
    ** Headers of the page
    */
   head: {
-    title: "Ozorku",
+    title: "Moses",
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       {
         name: "author",
-        content: "Adavize Ozorku"
+        content: "Moses"
       },
       {
         hid: "description",
         name: "description",
-        content:
-          "Adavize Ozorku is a Software Developer currently based in Lagos, Nigeria"
+        content: "Moses is a Mobile App Developer"
       },
       // facebook
       {
         property: "og:site_name",
-        content: "Adavize Ozorku"
+        content: "Moses"
       },
       { property: "og:type", content: "website" },
       { property: "og:url", content: "https://ozorku.dev" },
-      {
-        property: "og:image",
-        content: "images/adavize-ozorku-developer-card.png"
-      },
-      {
-        property: "og:description",
-        content: "Software Developer based in Lagos, Nigeria"
-      },
+
       {
         property: "og:title",
-        content: "Software Developer based in Lagos, Nigeria - Adavize Ozorku"
-      },
-      // twitter
-      { name: "twitter:domain", content: "ozorku.dev" },
-      { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:site", content: "@ozorku" },
-      { name: "twitter:creator", content: "@ozorku" },
-      { name: "twitter:url", content: "https://ozorku.dev" },
-      {
-        name: "twitter:title",
-        content: "Adavize Ozorku - Software Developer based in Lagos"
-      },
-      {
-        name: "twitter:description",
-        content: "Software Developer based in Lagos, Nigeria."
-      },
-      {
-        name: "twitter:image",
-        content: "https://ozorku.com/images/adavize-ozorku-developer-card.png"
+        content: "Mobile App Developer - Moses"
       }
     ],
     link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.png" }]
@@ -70,11 +44,11 @@ export default {
   /*
    ** Global CSS
    */
-  css: ["element-ui/lib/theme-chalk/index.css"],
+  css: ["ant-design-vue/dist/antd.css"],
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: ["@/plugins/element-ui"],
+  plugins: ["@/plugins/antd-ui"],
   /*
    ** Nuxt.js dev-modules
    */

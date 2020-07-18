@@ -12,20 +12,21 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  color: rgb(204, 214, 246);
-  background: #111;
-  font-size: 16px;
   line-height: 180%;
-  @media screen and (min-width: 50rem) {
-    font-size: 18px;
-  }
+  background: #e5e5e5;
+  // font-size: 25px;
+  // @media screen and (min-width: 50rem) {
+  //   font-size: 35px;
+  // }
 }
 
 button {
-  background: transparent;
-  border: 0.5px solid #48c8ff;
+  background: #eaa942;
+  box-shadow: 0px 0px 35px rgba(234, 169, 66, 0.5);
+  border-radius: 30.5px;
+  border: 0;
   padding: 15px 40px;
-  color: #48c8ff;
+  color: #000000;
   font-size: 18px;
   cursor: pointer;
 }

@@ -1,119 +1,137 @@
 <template>
-  <div class="intro-parent container">
-    <div class="intro-heading">
-      <div class="intro-heading__aboutme">
-        <p>Hi, I'm <span style="color: #48C8FF">Adavize Ozorku</span></p>
-        <h1 class="heading-animation"></h1>
-        <h1>Developer</h1>
-      </div>
-      <div class="intro-heading__mypicture">
-        <img
-          src="~/assets/images/display-photo.svg"
-          alt="Adavize Ozorku - Software Developer"
-        />
+  <div>
+    <div class="intro">
+      <div class="container">
+        <div class="logo">
+          <img src="~/assets/images/logo.svg" alt="" />
+        </div>
+        <div class="content">
+          <div>
+            <div class="greet">
+              Hi, I'm <span style="color: #EAA942">Moses</span>
+            </div>
+            <h1 style="color: white; margin-top: 10px">I build mobile Apps</h1>
+            <button>Work with me</button>
+            <ul class="socials">
+              <li>
+                <a href="">
+                  <img src="~/assets/images/github.svg" alt="logo"
+                /></a>
+              </li>
+              <li>
+                <a href="">
+                  <img src="~/assets/images/linkedin.svg" alt="logo"
+                /></a>
+              </li>
+              <li>
+                <a href="">
+                  <img src="~/assets/images/email.svg" alt="logo"
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="intro-summary">
-      I'm a software developer with ~4 years worth of experience working with
-      various teams and developing intuitive user interfaces for a snappy web &
-      mobile experience. I've been described as "having an obsessive attention
-      to detail"
+    <div class="screen-bar">
+      <ul class="container">
+        <li><img src="~assets/images/suitcase.svg" alt="" />Work</li>
+        <li><img src="~assets/images/resume.svg" alt="" />Resume</li>
+      </ul>
     </div>
-    <span class="resume-link">
-      <a href="resume.pdf" target="_blank">My Résumé</a>
-    </span>
   </div>
 </template>
 
 <style lang="scss" scoped>
-.intro-parent {
+.intro {
+  background-image: url("../assets/images/bg-mobile.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
   height: 100vh;
+  width: 100%;
+  background-position: center;
+  color: #fff;
+  font-size: 25px;
+
+  @media screen and (min-width: 50rem) {
+    background-image: url("../assets/images/bg-desktop.svg");
+    font-size: 35px;
+  }
+}
+
+button {
+  margin-top: 25px;
+  margin-bottom: 40px;
+  @media screen and (min-width: 50rem) {
+    margin-top: 35px;
+    margin-bottom: 57px;
+  }
+}
+
+.logo {
+  padding-top: 50px;
+  img {
+    width: 60px;
+    @media screen and (min-width: 50rem) {
+      width: 78px;
+    }
+  }
+}
+
+.content {
+  // background: red;
+  width: 100%;
+  height: 70vh;
+  margin-top: 30px;
+
+  @media screen and (min-width: 50rem) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  ul.socials {
+    max-width: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    li {
+      padding: 0;
+      margin: 0;
+    }
+  }
+}
+
+.screen-bar {
+  background: #0a1d2b;
+  width: 100%;
+  height: 80px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-}
-
-.intro-summary {
-  font-size: 18px;
-  line-height: 180%;
-  margin-top: 50px;
-  @media screen and (min-width: 50rem) {
-    font-size: 20px;
-  }
-}
-
-.resume-link {
-  margin-top: 50px;
-  a {
-    color: #48c8ff;
-  }
-}
-
-.intro-heading {
-  display: flex;
-  justify-content: space-between;
   align-items: center;
-  h1 {
-    font-size: 4rem;
-    line-height: 100%;
-  }
-  @media screen and (min-width: 50rem) {
-    flex-direction: row;
-    h1 {
-      font-size: 6rem;
-    }
-  }
-  &__aboutme {
-    width: 100%;
+  justify-content: center;
+  .container {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: #b3d1e5;
 
-    @media screen and (min-width: 50rem) {
-      width: 65%;
-    }
-  }
-  &__mypicture {
-    width: 100%;
-    text-align: right;
-    margin: 2rem 0;
-    img {
-      width: 100%;
-      max-width: 300px;
-      display: none;
-    }
-    @media screen and (min-width: 60rem) {
-      width: 48%;
-      text-align: end;
-      margin: 0;
+    li {
+      margin-right: 40px;
+      display: flex;
+      align-items: center;
       img {
-        width: 100%;
-        display: inline-block;
+        margin-right: 5px;
       }
     }
   }
-}
-
-.heading-animation {
-  &::before {
-    content: "a";
-    display: inline-block;
-    animation-name: animateText;
-    animation-play-state: running;
-    animation-duration: 8s;
-    animation-direction: normal;
-    animation-fill-mode: forwards;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-    white-space: nowrap;
-    color: rgb(168, 178, 209);
-  }
-}
-
-@keyframes animateText {
-  0% {
-    content: "Frontend";
-  }
-
-  100% {
-    content: "Mobile App";
+  @media screen and (min-width: 50rem) {
+    height: 100px;
   }
 }
 </style>

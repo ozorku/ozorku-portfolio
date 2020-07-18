@@ -1,5 +1,5 @@
 {
-  "name": "ozorku",
+  "name": "moses",
   "version": "1.0.0",
   "description": "My terrific Nuxt.js project",
   "author": "adavize",
@@ -11,8 +11,8 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "nuxt": "^2.0.0",
-    "element-ui": "^2.4.11"
+    "ant-design-vue": "^1.6.3",
+    "nuxt": "^2.0.0"
   },
   "devDependencies": {
     "node-sass": "^4.13.1",
