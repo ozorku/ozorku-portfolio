@@ -25,13 +25,12 @@
         class="mywork__grid-item"
       >
         <img class="mywork__grid-item-photo" :src="work.image" alt="" />
-
         <div class="mywork__grid-item-content">
           <div>
-            <h3 style="font-weight: bold">
+            <h3 style="font-weight: bold; color: '#0D2434">
               {{ work.name }}
             </h3>
-            <p style="color: #aaa; margin-top: 20px">
+            <p style="color: #444444; margin-top: 20px">
               {{ work.summary }}
             </p>
           </div>
@@ -114,6 +113,7 @@ export default {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        width: 100%;
         // background: blue;
         .footer {
           margin-top: 5rem;
