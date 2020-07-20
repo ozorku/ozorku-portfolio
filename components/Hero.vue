@@ -8,7 +8,7 @@
       </div>
       <div class="intro-heading__mypicture">
         <img
-          src="~/assets/images/display-photo.svg"
+          src="~/assets/images/Group 8.svg"
           alt="Adavize Ozorku - Software Developer"
         />
       </div>

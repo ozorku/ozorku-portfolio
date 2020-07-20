@@ -15,6 +15,12 @@ const articles = [
     url:
       "https://ozorku.hashnode.dev/introduction-to-writing-better-css-with-bem-cjylen0hk001470s1mh2euhux",
     linkName: "Hashnode"
+  },
+  {
+    name: "How to use SVG in React-native expo app",
+    url:
+      "https://ozorku.hashnode.dev/introduction-to-writing-better-css-with-bem-cjylen0hk001470s1mh2euhux",
+    linkName: "Hashnode"
   }
 ];
 
