@@ -1,22 +1,38 @@
 const works = [
   {
-    name: "Globus Corporate",
-    summary: "A powerful Internet Banking platform for Corporate outfits",
-    url: "https://enq.globusbank.com:8855",
-    tools: ["Nuxt/Vuex", "ElementUI", "REST API"]
-  },
-
-  {
-    name: "Globus Onboarding",
-    summary: "Enabling customers create a Globus Bank Account and Omniprofile",
-    url: "https://enq.globusbank.com:3300/join/",
-    tools: ["Nuxt/Vuex", "TailwindCSS", "REST API"]
+    name: "Trendbucks Web",
+    summary: "Make money by having fun!",
+    url: "https://trendbucks.app/",
+    github: "",
+    tools: ["React"]
   },
   {
-    name: "Techpoint Intelligence",
-    summary: "Pay for and recieve Techpoint's annual report within minutes",
-    url: "https://intelligence.techpoint.africa",
-    tools: ["PHP/MYSQL", "Javascript/jQuery", "Rave Payment"]
+    name: "Sharpdash",
+    summary: "⚡️ Get a backend dashboard in 5 minutes",
+    url: "https://sharpdash.io/",
+    github: "",
+    tools: ["React"]
+  },
+  {
+    name: "Git Profile",
+    summary: "💄 A nicer, almost better looking GitHub Profile ",
+    url: "https://git-profile.netlify.app",
+    github: "https://github.com/ozorku/git-profile",
+    tools: ["React", "tailwindCSS", "GitHub API"]
+  },
+  {
+    name: "TRVL App UI",
+    summary: "Mobile UI for TRVL app 📱. Built with React-native",
+    url: "",
+    github: "https://github.com/ozorku/travelapp",
+    tools: ["React-native"]
+  },
+  {
+    name: "Deezer Flow UI",
+    summary: "🔊 A web app for viewing tracks made available on Deezer ",
+    url: "https://deezer-flow.netlify.app/",
+    github: "https://github.com/ozorku/deezer-flow",
+    tools: ["React", "tailwindCSS", "Deezer API"]
   },
   {
     name: "News React Native",
@@ -32,19 +48,24 @@ const works = [
     github: "https://github.com/ozorku/shrtn-url",
     tools: ["Vue", "REST API"]
   },
-  // {
-  //   name: "Notelike Mobile",
-  //   summary: "A simple note-taking application like (Simple Note)",
-  //   url: "",
-  //   github: "https://github.com/ozorku/note-like",
-  //   tools: ["React-native", "Firebase Auth"]
-  // },
   {
     name: "Notelike web",
     summary: "A simple note-taking application like (Simple Note)",
     url: "notelike.netlify.com",
     github: "https://github.com/ozorku/NoteLike",
     tools: ["Nuxt/Vuex", "Firebase Auth"]
+  },
+  {
+    name: "Techpoint Intelligence",
+    summary: "Pay for and recieve Techpoint's annual report within minutes",
+    url: "https://intelligence.techpoint.africa",
+    tools: ["PHP/MYSQL", "Javascript/jQuery", "Rave Payment"]
+  },
+  {
+    name: "Globus Corporate",
+    summary: "A powerful Internet Banking platform for Corporate outfits",
+    url: "https://cib.globusbank.com/",
+    tools: ["Nuxt/Vuex", "AntDesign", "REST API"]
   }
 ];
 
