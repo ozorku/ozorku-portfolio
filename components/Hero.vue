@@ -4,17 +4,17 @@
       <div class="intro-heading__aboutme">
         <p>Hi, I'm <span style="color: #48C8FF">Ize Ozorku</span></p>
         <h1 class="heading-animation"></h1>
-        <h1>Developer</h1>
+        <h1>Engineer</h1>
       </div>
       <div class="intro-heading__mypicture">
         <img
           src="~/assets/images/Group 8.svg"
-          alt="Adavize Ozorku - Software Developer"
+          alt="Adavize Ozorku - Software Engineer"
         />
       </div>
     </div>
     <div class="intro-summary">
-      I'm a software developer with ~4 years worth of experience working with
+      I'm a software Engineer with ~4 years worth of experience working with
       various teams and developing intuitive user interfaces for a snappy web &
       mobile experience. I've been described as "having an obsessive attention
       to detail"

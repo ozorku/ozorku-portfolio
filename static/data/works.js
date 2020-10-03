@@ -54,19 +54,19 @@ const works = [
     url: "notelike.netlify.com",
     github: "https://github.com/ozorku/NoteLike",
     tools: ["Nuxt/Vuex", "Firebase Auth"]
-  },
-  {
-    name: "Techpoint Intelligence",
-    summary: "Pay for and recieve Techpoint's annual report within minutes",
-    url: "https://intelligence.techpoint.africa",
-    tools: ["PHP/MYSQL", "Javascript/jQuery", "Rave Payment"]
-  },
-  {
-    name: "Globus Corporate",
-    summary: "A powerful Internet Banking platform for Corporate outfits",
-    url: "https://cib.globusbank.com/",
-    tools: ["Nuxt/Vuex", "AntDesign", "REST API"]
   }
+  // {
+  //   name: "Techpoint Intelligence",
+  //   summary: "Pay for and recieve Techpoint's annual report within minutes",
+  //   url: "https://intelligence.techpoint.africa",
+  //   tools: ["PHP/MYSQL", "Javascript/jQuery", "Rave Payment"]
+  // },
+  // {
+  //   name: "Globus Corporate",
+  //   summary: "A powerful Internet Banking platform for Corporate outfits",
+  //   url: "https://cib.globusbank.com/",
+  //   tools: ["Nuxt/Vuex", "AntDesign", "REST API"]
+  // }
 ];
 
 export default works;
