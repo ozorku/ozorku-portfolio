@@ -21,7 +21,7 @@ import Footer from "~/components/Footer";
 
 export default {
   head: {
-    titleTemplate: "%s - Frontend Developer"
+    titleTemplate: "%s - Frontend Engineer"
   },
 
   metaInfo: {

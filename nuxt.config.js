@@ -16,7 +16,7 @@ export default {
         hid: "description",
         name: "description",
         content:
-          "Adavize Ozorku is a Software Developer currently based in Lagos, Nigeria"
+          "Adavize Ozorku is a Software Engineer currently based in Lagos, Nigeria"
       },
       // facebook
       {
@@ -31,11 +31,11 @@ export default {
       },
       {
         property: "og:description",
-        content: "Software Developer based in Lagos, Nigeria"
+        content: "Software Engineer based in Lagos, Nigeria"
       },
       {
         property: "og:title",
-        content: "Software Developer based in Lagos, Nigeria - Adavize Ozorku"
+        content: "Software Engineer based in Lagos, Nigeria - Adavize Ozorku"
       },
       // twitter
       { name: "twitter:domain", content: "ozorku.dev" },
@@ -45,11 +45,11 @@ export default {
       { name: "twitter:url", content: "https://ozorku.dev" },
       {
         name: "twitter:title",
-        content: "Adavize Ozorku - Software Developer based in Lagos"
+        content: "Adavize Ozorku - Software Engineer based in Lagos"
       },
       {
         name: "twitter:description",
-        content: "Software Developer based in Lagos, Nigeria."
+        content: "Software Engineer based in Lagos, Nigeria."
       },
       {
         name: "twitter:image",
