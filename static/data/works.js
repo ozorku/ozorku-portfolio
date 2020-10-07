@@ -1,10 +1,25 @@
 const works = [
   {
-    name: "Trendbucks Web",
-    summary: "Make money by having fun!",
-    url: "https://trendbucks.app/",
-    github: "",
+    name: "Initials-placeholder-react",
+    summary:
+      "📦 A React package that uses parsed initials as placeholders. Can be used as a substitute for absent user profile photo",
+    url: "https://www.npmjs.com/package/initials-placeholder-react",
+    github: "https://github.com/ozorku/Initials-placeholder-react",
     tools: ["React"]
+  },
+  {
+    name: "Vue-payant",
+    summary: "📦 Package for implementing payant inline payment form in vue",
+    url: "www.npmjs.com/package/vue-payant",
+    github: "https://github.com/ozorku/vue-payant",
+    tools: ["Javascript, Vue"]
+  },
+  {
+    name: "Vue-remita",
+    summary: "💳 📦 Vue package for Remita payment gateway ",
+    url: "www.npmjs.com/package/vue-remita",
+    github: "https://github.com/ozorku/vue-remita",
+    tools: ["Vue"]
   },
   {
     name: "Sharpdash",
@@ -19,6 +34,13 @@ const works = [
     url: "https://git-profile.netlify.app",
     github: "https://github.com/ozorku/git-profile",
     tools: ["React", "tailwindCSS", "GitHub API"]
+  },
+  {
+    name: "Trendbucks Web",
+    summary: "Make money by having fun!",
+    url: "https://trendbucks.app/",
+    github: "",
+    tools: ["React"]
   },
   {
     name: "TRVL App UI",
@@ -51,22 +73,10 @@ const works = [
   {
     name: "Notelike web",
     summary: "A simple note-taking application like (Simple Note)",
-    url: "notelike.netlify.com",
+    url: "https://notelike.netlify.com",
     github: "https://github.com/ozorku/NoteLike",
     tools: ["Nuxt/Vuex", "Firebase Auth"]
   }
-  // {
-  //   name: "Techpoint Intelligence",
-  //   summary: "Pay for and recieve Techpoint's annual report within minutes",
-  //   url: "https://intelligence.techpoint.africa",
-  //   tools: ["PHP/MYSQL", "Javascript/jQuery", "Rave Payment"]
-  // },
-  // {
-  //   name: "Globus Corporate",
-  //   summary: "A powerful Internet Banking platform for Corporate outfits",
-  //   url: "https://cib.globusbank.com/",
-  //   tools: ["Nuxt/Vuex", "AntDesign", "REST API"]
-  // }
 ];
 
 export default works;
