@@ -10,12 +10,12 @@ const articles = [
       "https://ozorku.hashnode.dev/how-to-fix-vue-cli-slow-project-creation-cjzqkpx59001ivps1rw4wnhsa",
     linkName: "Hashnode"
   },
-  {
-    name: "Introduction to writing better CSS with BEM",
-    url:
-      "https://ozorku.hashnode.dev/introduction-to-writing-better-css-with-bem-cjylen0hk001470s1mh2euhux",
-    linkName: "Hashnode"
-  },
+  // {
+  //   name: "Introduction to writing better CSS with BEM",
+  //   url:
+  //     "https://ozorku.hashnode.dev/introduction-to-writing-better-css-with-bem-cjylen0hk001470s1mh2euhux",
+  //   linkName: "Hashnode"
+  // },
   {
     name: "How to use SVG in React-native expo app",
     url:
