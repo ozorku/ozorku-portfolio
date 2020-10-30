@@ -22,6 +22,36 @@ const works = [
     tools: ['React-native'],
   },
   {
+    name: 'mininote-app',
+    summary: 'Minimal Notes App UI built with React-native ',
+    url: '',
+    github: 'https://github.com/ozorku/mininote-app',
+    tools: ['React-native'],
+  },
+  {
+    name: 'Cloudrive',
+    summary: 'Google drive clone',
+    url: 'https://cloudrive.netlify.app/',
+    github: 'https://github.com/ozorku/cloudrive',
+    tools: ['React', 'Javascript'],
+  },
+  {
+    name: 'latest-tech-headlines',
+    summary:
+      'Latest Technology News headlines sourced from Techpoint.africa, Techcabal.com & Technext.ng. Built using React, Typescript, Axios & TailwindCSS ',
+    url: 'https:// latest-tech-headlines.netlify.app/ ',
+    github: 'https://github.com/ozorku/latest-tech-headlines',
+    tools: ['React', 'TypeScript', 'Rest API', 'TailwindCSS'],
+  },
+  {
+    name: 'sliding-puzzle-game',
+    summary:
+      'The 15-puzzle (also called Gem Puzzle, Boss Puzzle, Game of Fifteen, Mystic Square and many others) is a sliding puzzle that consists of a frame of numbered square tiles in random order with one tile missing.',
+    url: 'https://sliding-15-puzzle-game.netlify.app/',
+    github: 'https://github.com/ozorku/sliding-puzzle-game',
+    tools: ['React', 'TypeScript'],
+  },
+  {
     name: 'Initials-placeholder-react',
     summary:
       '📦 A React package that uses parsed initials as placeholders. Can be used as a substitute for absent user profile photo',
