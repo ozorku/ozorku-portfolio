@@ -8,6 +8,20 @@ const works = [
     tools: ['React-native', 'TypeScript'],
   },
   {
+    name: 'News React Native',
+    summary: 'News app built with react-native',
+    url: '',
+    github: 'https://github.com/ozorku/news-react-native',
+    tools: ['React-native/Redux', 'GNews API'],
+  },
+  {
+    name: 'TRVL App UI',
+    summary: 'Mobile UI for TRVL app 📱. Built with React-native',
+    url: '',
+    github: 'https://github.com/ozorku/travelapp',
+    tools: ['React-native'],
+  },
+  {
     name: 'Initials-placeholder-react',
     summary:
       '📦 A React package that uses parsed initials as placeholders. Can be used as a substitute for absent user profile photo',
@@ -50,13 +64,7 @@ const works = [
     github: '',
     tools: ['React'],
   },
-  {
-    name: 'TRVL App UI',
-    summary: 'Mobile UI for TRVL app 📱. Built with React-native',
-    url: '',
-    github: 'https://github.com/ozorku/travelapp',
-    tools: ['React-native'],
-  },
+
   {
     name: 'Deezer Flow UI',
     summary: '🔊 A web app for viewing tracks made available on Deezer ',
@@ -64,13 +72,7 @@ const works = [
     github: 'https://github.com/ozorku/deezer-flow',
     tools: ['React', 'tailwindCSS', 'Deezer API'],
   },
-  {
-    name: 'News React Native',
-    summary: 'News app built with react-native',
-    url: '',
-    github: 'https://github.com/ozorku/news-react-native',
-    tools: ['React-native/Redux', 'GNews API'],
-  },
+
   {
     name: 'SHRTN',
     summary: 'Easily shorten URLs',
