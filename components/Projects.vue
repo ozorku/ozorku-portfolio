@@ -4,41 +4,44 @@
       <h2 class="section-heading">
         Some things I've built
       </h2>
-      <div class="projects">
-        <div v-for="work in works" :key="work.index" class="project">
-          <header>
-            <div class="project-header">
-              <div class="folder"></div>
-              <div>
-                <a
-                  class="github-link"
-                  target="_blank"
-                  :href="work.github"
-                  v-show="work.github"
-                >
-                </a>
-                <a
-                  class="url-link"
-                  target="_blank"
-                  :href="work.url"
-                  v-show="work.url"
-                ></a>
+      <div v-for="work in works" :key="work.index">
+        <h3>{{ work.title }}</h3>
+        <div class="projects">
+          <div v-for="item in work.items" :key="item.index" class="project">
+            <header>
+              <div class="project-header">
+                <div class="folder"></div>
+                <div>
+                  <a
+                    class="github-link"
+                    target="_blank"
+                    :href="item.github"
+                    v-show="item.github"
+                  >
+                  </a>
+                  <a
+                    class="url-link"
+                    target="_blank"
+                    :href="item.url"
+                    v-show="item.url"
+                  ></a>
+                </div>
               </div>
-            </div>
-            <div class="project-name">{{ work.name }}</div>
-            <div class="project-description">{{ work.summary }}</div>
-          </header>
-          <footer>
-            <ul>
-              <li
-                class="project-tools"
-                v-for="item in work.tools"
-                :key="item.index"
-              >
-                {{ item }}
-              </li>
-            </ul>
-          </footer>
+              <div class="project-name">{{ item.name }}</div>
+              <div class="project-description">{{ item.summary }}</div>
+            </header>
+            <footer>
+              <ul>
+                <li
+                  class="project-tools"
+                  v-for="item in item.tools"
+                  :key="item.index"
+                >
+                  {{ item }}
+                </li>
+              </ul>
+            </footer>
+          </div>
         </div>
       </div>
     </div>
@@ -60,6 +63,14 @@ export default {
 <style lang="scss" scoped>
 h2 {
   text-align: center;
+}
+
+h3 {
+  font-size: 28px;
+  margin-top: 100px;
+  margin-bottom: 30px;
+  color: #47c7fe;
+  font-weight: bold;
 }
 
 .projects {
