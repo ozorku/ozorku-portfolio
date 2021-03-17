@@ -6,7 +6,7 @@ const works = [
         name: "NuntiumApp",
         summary:
           "News App UI built with React Native / Typescript, bootstrapped with Expo.io.",
-        url: "",
+        url: "https://exp.host/@ozorku/NuntiumApp",
         github: "https://github.com/ize-302/NuntiumApp",
         tools: ["React-native", "TypeScript"]
       },
@@ -29,7 +29,7 @@ const works = [
         name: "music-app",
         summary:
           "Music player app built with TypeScript & React native. Bootstrapped with Expo ",
-        url: "",
+        url: "https://exp.host/@ozorku/music-player",
         github: "https://github.com/ozorku/music-player",
         tools: ["React-native", "TypeScript"]
       },
@@ -47,13 +47,6 @@ const works = [
         github: "https://github.com/ozorku/travelapp",
         tools: ["React-native"]
       },
-      {
-        name: "mininote-app",
-        summary: "Minimal Notes App UI built with React-native ",
-        url: "",
-        github: "https://github.com/ozorku/mininote-app",
-        tools: ["React-native"]
-      }
     ]
   },
   {
@@ -75,14 +68,6 @@ const works = [
         tools: ["React", "TypeScript", "Rest API", "TailwindCSS"]
       },
       {
-        name: "sliding-puzzle-game",
-        summary:
-          "The 15-puzzle (also called Gem Puzzle, Boss Puzzle, Game of Fifteen, Mystic Square and many others) is a sliding puzzle that consists of a frame of numbered square tiles in random order with one tile missing.",
-        url: "https://sliding-15-puzzle-game.netlify.app/",
-        github: "https://github.com/ozorku/sliding-puzzle-game",
-        tools: ["React", "TypeScript"]
-      },
-      {
         name: "Git Profile",
         summary: "💄 A nicer, almost better looking GitHub Profile ",
         url: "https://git-profile.netlify.app",
@@ -96,19 +81,10 @@ const works = [
         github: "",
         tools: ["React"]
       },
-
-      {
-        name: "Deezer Flow UI",
-        summary: "🔊 A web app for viewing tracks made available on Deezer ",
-        url: "https://deezer-flow.netlify.app/",
-        github: "https://github.com/ozorku/deezer-flow",
-        tools: ["React", "tailwindCSS", "Deezer API"]
-      },
-
       {
         name: "SHRTN",
         summary: "Easily shorten URLs",
-        url: "https://shrtn.netlify.com",
+        url: "https://shrtn-url.netlify.app/",
         github: "https://github.com/ozorku/shrtn-url",
         tools: ["Vue", "REST API"]
       },

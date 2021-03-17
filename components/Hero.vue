@@ -2,7 +2,7 @@
   <div class="intro-parent container">
     <div class="intro-heading">
       <div class="intro-heading__aboutme">
-        <p>Hi, I'm <span style="color: #48C8FF">Ize Ozorku</span></p>
+        <p>Hi, I'm <span style="color: #48C8FF">Adavize Hassan</span></p>
         <h1 class="heading-animation"></h1>
         <h1>Engineer</h1>
       </div>
